@@ -14,10 +14,110 @@ body {
     background-color: var(--dark-grey);
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow: auto;
     font-size: 14px;
     color: white ;
     box-sizing: border-box;
     text-align: center;
+}
+
+/* HEADER STYLE */
+
+header {
+    background-color: #F6C90E;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    padding: 0;
+    z-index: 2;
+}
+
+.logo {
+    background-image: url(../img/header/logo.gif);
+    background-repeat: no-repeat;
+    padding: 100px 93px 0px;
+    cursor: pointer;
+}
+
+.videos__header {
+    background-image: url(../img/header/video_call.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px;
+    margin-right: 12px;
+}
+
+/* VIDEOS SECTION */
+
+.videos__container {
+    color: var(--snow);
+}
+
+.msg {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.msg__picture {
+    width: 30%;
+}
+
+.msg__title {
+    color: var(--snow);
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.input__search {
+    width: 260px;
+    height: 32px;
+    border: 1px solid rgb(211, 211, 211);
+    font-size: 14px;
+    padding: 3px 8px;
+    color: var(--grey);
+}
+
+.button__search {
+    background-image: url(../img/header/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgb(red, green, blue);
+    background-color: #f9f9f9;
+    border-left: none;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.video__search {
+    display: flex;
+    justify-content: center;
+}
+
+@media(min-width: 834px) {
+
+    body {
+        height: 100vh;
+    }
+}
+
+.button__retur {
+    background-image: url(../img/logo.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px;
+    border-left: none;
+    padding: 13px;
+    cursor: pointer;
+    width: 3em;
+    height: 3em;
+    border-radius: 100em;
+    align-items: center;
+    justify-content: center;
+    color: #ECECEC;
+    font-size: 12px;
 }
