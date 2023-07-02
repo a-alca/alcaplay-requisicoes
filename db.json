@@ -1,0 +1,25 @@
+{
+    "videos": [
+      {
+        "id": 1,
+        "titulo": "Relaxing Plant Tour 2023 | my entire houseplant collection",
+        "descricao": "3 mil visualizações",
+        "url": "https://www.youtube.com/embed/gLciG7la7cg",
+        "imagem": "./img/logo.gif"
+      },
+      {
+        "id": 2,
+        "titulo": "Baco Exu do Blues - Samba in Paris [ft. Gloria Groove",
+        "descricao": "1,5 mi visualizações",
+        "url": "https://www.youtube.com/embed/4iKtTmnHojU",
+        "imagem": "./img/logo.gif"
+      },
+      {
+        "id": 3,
+        "titulo": "A MAIOR MARCHA da MAC0NHA de TODAS!",
+        "descricao": "1 mi visualizações",
+        "url": "https://www.youtube.com/embed/jECmxnBughw",
+        "imagem": "./img/logo.gif"
+      }
+    ]
+  }
