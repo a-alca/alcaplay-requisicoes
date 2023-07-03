@@ -3,11 +3,9 @@ async function listaVideos() { // relembrando que por padrao o js é sincrono
      const conexaoConvertida = await conexao.json(); // esse metodo json (JavaScript Object Notation) pega todos os dados do response em formato de bytes que era recebido no console.log(conexao) e transforma em um objeto JS que aplicado aqui por exemplo, retonar no console um array de 3 itens de videos contendo suas informacoes do db.json.
     //console.log(conexaoConvertida);
 
-    return conexaoConvertida
+    return conexaoConvertida // o return vai retornar tudo da funcao assincrona listaVideos
 }
-listaVideos();
 
-// no primeiro teste tive erro de console: Unhandled Promise Rejection: TypeError: Load Failed
-                                                //(anonymous funtion) - conectaApi.js:2
-
-    // tinha escrito http://localhost/3000/videos coloquei / entre local host e 3000 ao :
+export const conectaApi = {
+    listaVideos
+}
