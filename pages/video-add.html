@@ -28,18 +28,18 @@
 
         <main class="container">
 
-            <fomr class="container__form">
+            <fomr class="container__form" data-form> <!-- lembrando que aqui aconteceu o data-attribute (linhas 31, 34, 38, 42), onde no showVideos.js, a variavel do tipo const, denominada lista, vai fazer uma query dessa parte do código, selecionar o atributo data-lista e dai conseguimos manipular a tag <ul></ul> que foi onde atribuimos o data-lista-->
                 <h2 class="title__form">Adicione um novo vídeo!</h2>
                     <div class="item__form">
-                        <label class="ticket__form" for="url">Link embed</label>
+                        <label class="ticket__form" for="url" data-url="">Link embed</label>
                         <input name="title" class="input__form" required placeholder="Exemplo: https://www.youtube.com/embed/yrtWLyp5gLI" id="url"/>
                     </div>
                     <div class="item__form">
-                        <label class="ticket__form" for="title">Título do vídeo</label>
+                        <label class="ticket__form" for="title" data-title="">Título do vídeo</label>
                         <input name="title" class="input__form" required placeholder="Informe aqui o titulo que gostaria de dar a esse vídeo" id="title"/>
                     </div>
                     <div class="item__form">
-                        <label class="ticket__form" for="picture">Imagem de perfil</label>
+                        <label class="ticket__form" for="picture" data-img>Imagem de perfil</label>
                         <input name="title" class="input__form" required placeholder="Insira a ULR da imagem" id="picture"/>
                     </div>
 
